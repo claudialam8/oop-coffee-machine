@@ -14,7 +14,7 @@ while is_on:
     if choice == "off":
         is_on = False
     elif choice == "report":
-        CoffeeMaker.report()
+        coffee_maker.report()
         money_machine.report()
     else:
         drink = menu.find_drink(choice)
